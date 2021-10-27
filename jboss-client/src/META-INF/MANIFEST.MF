@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Build-Timestamp: Fri, 11 Jul 2014 12:34:05 -0400
+Implementation-Title: JBoss Application Server: EJB and JMS client com
+ bined jar
+Implementation-Version: 7.4.0.Final-redhat-19
+Os-Version: 2.6.32-431.17.1.el6.x86_64
+Built-By: mockbuild
+Specification-Vendor: JBoss by Red Hat
+Created-By: Apache Maven
+Os-Name: Linux
+Implementation-URL: http://www.jboss.org/jboss-as-parent/client/jboss-
+ as-client-all
+Java-Vendor: Sun Microsystems Inc.
+Implementation-Vendor: JBoss by Red Hat
+Scm-Revision: b0d14b662d07cb1fcc0d8ac40c811345853866fd
+JBossAS-Release-Version: 7.4.0.Final-redhat-19
+Implementation-Vendor-Id: org.jboss.as
+Scm-Url: https://github.com/jbossas/jboss-as
+Build-Jdk: 1.6.0_30
+Java-Version: 1.6.0_30
+Scm-Connection: scm:git:git@github.com:jbossas/jboss-as.git/client/jbo
+ ss-as-client-all
+Os-Arch: i386
+Specification-Title: JBoss Application Server: EJB and JMS client comb
+ ined jar
+Specification-Version: 7.4.0.Final-redhat-19
+JBossAS-Release-Codename: Janus
+Archiver-Version: Plexus Archiver
+

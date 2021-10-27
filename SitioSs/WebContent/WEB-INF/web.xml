@@ -1,0 +1,38 @@
+<!-- <?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml$
+version="2.4"> -->
+<web-app>
+<display-name>
+Ejemplos de un Servlet
+</display-name>
+<description>
+Ejemplo para prueba
+</description>
+<!-- Publicamos nuestro servlet aquí -->
+<servlet>
+<servlet-name>Insertar</servlet-name>
+<servlet-class>Insertar</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>ConsultaGeneral</servlet-name>
+<servlet-class>ConsultaGeneral</servlet-class>
+</servlet>
+<servlet>
+<servlet-name>ClienteEJB3V2</servlet-name>
+<servlet-class>ClienteEJB3V2</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Insertar</servlet-name>
+<url-pattern>/Insertar</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>ConsultaGeneral</servlet-name>
+<url-pattern>/ConsultaGeneral</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+<servlet-name>ClienteEJB3V2</servlet-name>
+<url-pattern>/ClienteEJB3V2</url-pattern>
+</servlet-mapping>
+</web-app>

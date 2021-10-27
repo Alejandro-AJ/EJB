@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="SitioSu">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="jboss-client.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jboss-client/jboss-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ctale.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ctale/ctale">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="SitioSu"/>
+        <property name="java-output-path" value="/SitioSu/build/classes"/>
+    </wb-module>
+</project-modules>
